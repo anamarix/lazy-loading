@@ -1,3 +1,19 @@
-@import 'tailwindcss/dist/base.css';
-@import 'tailwindcss/dist/components.css';
-@import 'tailwindcss/dist/utilities.css';
+@import "tailwindcss/dist/base.css";
+@import "tailwindcss/dist/components.css";
+@import "tailwindcss/dist/utilities.css";
+
+#btn-a {
+  border-radius: 5px;
+}
+#btn-r {
+  border-radius: 5px;
+}
+
+#btn-a:active {
+  transform: scale(1.1);
+  border: rgb(100, 72, 72) solid 1px;
+}
+#btn-r:active {
+  transform: scale(1.1);
+  border: rgb(100, 72, 72) solid 1px;
+}
